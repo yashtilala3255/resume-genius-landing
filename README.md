@@ -26,6 +26,9 @@ This landing page highlights features, templates, customization options, and all
 - **Deployment:** Vercel / Netlify / GitHub Pages  
 
 ---
+project is live at:
+https://resume-landing-web.lovable.app/
+---
 
 ## 📂 Project Structure  
 
