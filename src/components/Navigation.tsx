@@ -22,9 +22,6 @@ const Navigation = () => {
         </div>
 
         <div className="flex items-center space-x-4">
-          <Button variant="ghost" className="hidden sm:inline-flex">
-            Sign In
-          </Button>
           <Button 
             variant="hero"
             onClick={() => window.open('https://resume-builder-scalex.vercel.app/', '_blank')}
