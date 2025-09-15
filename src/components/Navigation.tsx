@@ -1,11 +1,16 @@
 import { Button } from "@/components/ui/button";
+import resumeBuilderLogo from "@/assets/resumebuilder-pro-logo.png";
 
 const Navigation = () => {
   return (
     <nav className="bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50 w-full border-b border-border/40">
       <div className="container flex h-16 max-w-screen-xl items-center justify-between">
         <div className="flex items-center space-x-2">
-          <div className="h-8 w-8 rounded-lg bg-gradient-primary"></div>
+          <img 
+            src={resumeBuilderLogo} 
+            alt="ResumeBuilder Pro Logo" 
+            className="h-8 w-8 object-contain"
+          />
           <span className="text-xl font-bold text-foreground">ResumeBuilder Pro</span>
         </div>
         

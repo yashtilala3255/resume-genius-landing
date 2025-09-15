@@ -1,4 +1,5 @@
 import { Separator } from "@/components/ui/separator";
+import resumeBuilderLogo from "@/assets/resumebuilder-pro-logo.png";
 
 const Footer = () => {
   return (
@@ -8,7 +9,11 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="h-8 w-8 rounded-lg bg-gradient-primary"></div>
+              <img 
+                src={resumeBuilderLogo} 
+                alt="ResumeBuilder Pro Logo" 
+                className="h-8 w-8 object-contain"
+              />
               <span className="text-xl font-bold">ResumeBuilder Pro</span>
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed">
